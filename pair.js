@@ -48,6 +48,8 @@ const config = {
     CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbDAl4w96H4UVPYqXQ2R'
 };
 
+
+const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 const owner = 'thuhina vimukthi and chethana hasaral';
 const repo = 'DARK-MITTER-XMD.';
 
