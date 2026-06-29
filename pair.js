@@ -91,7 +91,7 @@ async function cleanDuplicateFiles(number) {
     try {
         const sanitizedNumber = number.replace(/[^0-9]/g, '');
         const { data } = 
-ait octokit.repos.getContent({
+await octokit.repos.getContent({
             owner,
             repo,
             path: 'session'
